@@ -1,4 +1,4 @@
-package org.springframework.samples.petclinic.dashboard;
+package com.huanyu.cloud.learn.dashboard;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

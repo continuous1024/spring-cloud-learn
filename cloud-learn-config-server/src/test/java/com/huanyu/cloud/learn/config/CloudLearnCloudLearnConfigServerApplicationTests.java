@@ -15,15 +15,17 @@
  */
 package com.huanyu.cloud.learn.config;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-@EnableConfigServer
-@SpringBootApplication
-public class ConfigServerApplication {
+@ExtendWith(SpringExtension.class)
+@SpringBootTest
+class CloudLearnCloudLearnConfigServerApplicationTests {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ConfigServerApplication.class, args);
+	@Test
+	void contextLoads() {
 	}
+
 }

@@ -11,7 +11,7 @@
 
     <groupId>com.huanyu.cloud.learn</groupId>
     <artifactId>spring-cloud-learn</artifactId>
-    <version>1.0.0</version>
+    <version>${revision}</version>
     <name>${project.artifactId}</name>
     <packaging>pom</packaging>
 
@@ -22,9 +22,11 @@
         <module>cloud-learn-api-gateway</module>
         <module>cloud-learn-hystrix-dashboard</module>
         <module>cloud-learn-account-service</module>
+        <module>cloud-learn-examples</module>
     </modules>
 
     <properties>
+        <revision>1.0.0-SNAPSHOT</revision>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.report.outputEncoding>UTF-8</project.report.outputEncoding>
         <java.version>1.8</java.version>

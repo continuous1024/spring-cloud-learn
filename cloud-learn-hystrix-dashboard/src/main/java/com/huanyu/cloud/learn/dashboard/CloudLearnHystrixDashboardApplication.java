@@ -1,4 +1,4 @@
-package org.springframework.samples.petclinic.dashboard;
+package com.huanyu.cloud.learn.dashboard;
 
 
 import org.springframework.boot.SpringApplication;
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @EnableDiscoveryClient
 @EnableHystrixDashboard
 @Controller
-public class HystrixDashboardApplication {
+public class CloudLearnHystrixDashboardApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(HystrixDashboardApplication.class, args);
+        SpringApplication.run(CloudLearnHystrixDashboardApplication.class, args);
     }
 
     @RequestMapping("/")

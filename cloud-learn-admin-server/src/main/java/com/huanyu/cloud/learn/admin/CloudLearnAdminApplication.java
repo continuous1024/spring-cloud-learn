@@ -8,11 +8,11 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 @EnableAdminServer
 @EnableDiscoveryClient
-public class SpringBootAdminApplication {
+public class CloudLearnAdminApplication {
 
     
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootAdminApplication.class, args);
+        SpringApplication.run(CloudLearnAdminApplication.class, args);
     }
 
 }
