@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.huanyu.cloud.learn.example.ribbon</groupId>
     <artifactId>cloud-learn-example-ribbon</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>${revision}</version>
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
     <description>Ribbon example for spring cloud learn</description>
@@ -38,6 +38,12 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

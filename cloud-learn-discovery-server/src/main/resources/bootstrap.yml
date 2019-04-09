@@ -1,6 +1,8 @@
 spring:
   cloud:
     config:
-      uri: http://localhost:8888
+      discovery:
+        enabled: true
+        serviceId: config-server
   application:
     name: discovery-server

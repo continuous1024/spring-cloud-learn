@@ -17,7 +17,11 @@
 	<modules>
 		<module>cloud-learn-example-ribbon</module>
 		<module>cloud-learn-example-helloworld</module>
-	</modules>
+        <module>cloud-learn-example-feign</module>
+        <module>cloud-learn-example-zuul</module>
+        <module>cloud-learn-example-zipkin-hi</module>
+        <module>cloud-learn-example-zipkin-world</module>
+    </modules>
 	<build>
 		<plugins>
 			<plugin>
